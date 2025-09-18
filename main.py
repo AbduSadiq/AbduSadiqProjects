@@ -9,7 +9,7 @@ age = int(input("How old may you happen to be?"))
 if 0 <= age < 18:
     print ( "You've got some years ahead of you!")
     input("Press enter to continue...")
-elif 18 >= age < 60:
+elif 18 <= age < 60:
     print ("You're almost an adult, act mature!")
     input("Press enter to continue...")
 elif age > 60:
