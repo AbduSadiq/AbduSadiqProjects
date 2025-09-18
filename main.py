@@ -6,7 +6,7 @@ print("Woah, "  + name +  ", that's a new one!")
 input("Press enter to continue...")
 
 age = int(input("How old may you happen to be?"))
-if 13 <= age < 18:
+if 0 <= age < 18:
     print ( "You've got some years ahead of you!")
     input("Press enter to continue...")
 elif 18 >= age < 60:
