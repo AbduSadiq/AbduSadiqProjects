@@ -19,6 +19,8 @@ else:
     print ("Be a role model!")
     input("Press enter to continue...")
 
+input("How may I help you today?")
+
 
 while True:
     print("Choose an option!")
